@@ -1,0 +1,73 @@
+@import url("../../node_modules/font-awesome/css/font-awesome.min.css");
+.dashboard {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr;
+      grid-template-columns: 1fr 4fr;
+}
+
+.dashboard .detail {
+  width: 100%;
+}
+
+.dashboard .navbar-main {
+  background-color: #fffe;
+  color: #cfcccc;
+}
+
+.dashboard .navbar-main span {
+  color: #cfcccc;
+}
+
+.dashboard .master-main {
+  height: 100vh;
+  background: #00205B;
+  color: #fff;
+  overflow-y: auto;
+  top: 0;
+  left: 0;
+}
+
+.dashboard .master-main .brand {
+  background: #001948;
+  padding: 14px;
+}
+
+.dashboard .icons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  min-width: 8vw;
+  padding: auto;
+  margin: auto;
+}
+
+.dashboard .avatar {
+  vertical-align: middle;
+  max-width: 70px;
+  height: 40px;
+  border-radius: 50%;
+  padding: auto;
+  margin: auto;
+}
+
+.dashboard .margin-right {
+  margin-right: 24px;
+}
+
+.dashboard .margin-left {
+  margin-left: 2vw;
+}
+
+.dashboard .search-bar {
+  color: #cfcccc;
+  border: none;
+}
+
+.dashboard .search-bar:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=dashboard.css.map */

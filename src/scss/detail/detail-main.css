@@ -1,0 +1,58 @@
+.breadcrumb-main {
+  margin-left: 5%;
+  max-width: 15vw;
+  font-size: 12px;
+}
+
+.detail {
+  background-color: #f3eded;
+}
+
+.detail-wrapper {
+  margin: 5%;
+}
+
+.detail-wrapper .detail-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5fr 1fr;
+      grid-template-columns: 5fr 1fr;
+  font-size: 24px;
+  color: #07245a;
+}
+
+.detail-wrapper .detail-header button {
+  color: #fffe;
+  background-color: #F58220;
+  max-height: 5vh;
+  font-size: 14px;
+}
+
+.detail-wrapper .client-main-list {
+  margin-top: 2vh;
+}
+
+.detail-wrapper .client-name {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 90% 10%;
+      grid-template-columns: 90% 10%;
+  color: #cfcccc;
+  font-size: 16px;
+}
+
+.detail-wrapper .detail-main {
+  background-color: #fffe;
+  min-height: 60vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+  margin-top: 2rem;
+}
+
+.detail-wrapper .detail-main .role-master {
+  max-width: 20vw;
+  color: #cfcccc;
+}
+/*# sourceMappingURL=detail-main.css.map */

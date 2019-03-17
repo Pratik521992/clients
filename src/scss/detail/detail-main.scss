@@ -1,0 +1,50 @@
+@import '../main.scss';
+.breadcrumb-main{
+   margin-left: 5%;
+    max-width: 15vw;
+    font-size: 12px;
+}
+.detail {
+    background-color: $background-secondary;
+   
+}
+.detail-wrapper {
+    margin: 5%;
+   
+    .detail-header {
+        display:grid;
+        grid-template-columns: 5fr 1fr;
+        font-size: 24px;
+        color: $primary;
+        button {
+            color: $background;
+            background-color: $secondary;
+            max-height: 5vh;
+            font-size: 14px;
+        }
+        
+    }
+    .client-main-list {
+        margin-top: 2vh;
+    }
+    .client-name{
+        display: grid;
+        grid-template-columns: 90% 10%;
+        color: $font-main;
+        font-size: 16px;
+    }
+    .detail-main{
+        background-color: $background;
+        min-height: 60vh;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+       
+        margin-top: 2rem;
+
+        .role-master {
+            max-width: 20vw;
+            
+            color: $font-main; 
+        }
+    }
+}

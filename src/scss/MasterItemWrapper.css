@@ -1,0 +1,76 @@
+.ItemAccordianName {
+  background: #0056b3;
+}
+
+.ItemAccordianName a {
+  color: antiquewhite;
+}
+
+.master-list-group-item {
+  background-color: #07245a;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: .5fr .5fr 2fr 2fr;
+      grid-template-columns: .5fr .5fr 2fr 2fr;
+}
+
+.master-list-group-item .secondary {
+  color: #F58220;
+  font-size: 16px;
+}
+
+.master-list-group-item p {
+  margin: 10% auto;
+}
+
+.master-list-group-item i {
+  margin: 50% 2%;
+  padding: auto;
+}
+
+.master-list-item-highlight {
+  border-left: 6px solid #F58220;
+}
+
+.item {
+  background-color: #07245a !important;
+  text-decoration: none;
+  max-height: 50px;
+}
+
+.item a, .item span {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-left: -30px;
+}
+
+.item a:focus, .item span:focus {
+  color: #F58220;
+  text-decoration: none;
+}
+
+.item a:hover, .item span:hover {
+  color: #F58220;
+  text-decoration: none;
+}
+
+.item a:visited, .item span:visited {
+  color: #F58220;
+  text-decoration: none;
+}
+
+.item span {
+  font-size: 16px;
+}
+
+.flex {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+}
+/*# sourceMappingURL=MasterItemWrapper.css.map */

@@ -5,8 +5,10 @@ import {Authenticator} from 'aws-amplify-react';
 import {Greetings, RequireNewPassword} from 'aws-amplify-react';
 import CustomRequireNewPassword from 'view/pages/Auth/CustomRequireNewPassword.js'
 import 'App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import Amplify from 'aws-amplify';
 import CustomAmplifyTheme from 'css/amplify/CustomAmplifyTheme.js';
+import Dashboard from '../src/view/pages/Dashboard.jsx';
 
 Amplify.configure({
     Auth: {
@@ -31,13 +33,17 @@ class App extends Component {
 
     render() {
         return (
-            <Authenticator theme={CustomAmplifyTheme} hide={[Greetings, RequireNewPassword]}>
-                <CustomRequireNewPassword/>
-                <Header/>
-                <Body/>
-            </Authenticator>
+            <div>
+                
+                <Body />
+               <Dashboard />
+            </div>
+            
         );
     }
 }
 
 export default App;
+/*
+
+*/            

@@ -1,0 +1,67 @@
+@import url('../../node_modules/font-awesome/css/font-awesome.min.css');   
+@import './main.scss';
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    
+    .detail{
+        width: 100%;
+        
+    }
+    .navbar-main {
+        background-color: $background;
+        color: $font-main;
+        span {
+            color: $font-main;
+           
+        }
+    }
+    .master-main {
+        height: 100vh;
+        background: #00205B;
+        color: #fff;
+        overflow-y: auto;
+        top: 0;
+        left: 0;
+
+        .brand {
+           background: #001948;
+           padding: 14px;
+        }
+
+    }
+    .icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        min-width: 8vw;
+        padding: auto;
+        margin: auto;
+    }
+    .avatar {
+        vertical-align: middle;
+        max-width: 70px;
+        height: 40px;
+        border-radius: 50%;
+        padding: auto;
+        margin: auto;
+    }
+    .margin-right {
+        margin-right: 24px;
+    }
+    .margin-left {
+        margin-left: 2vw;
+    }
+
+    .search-bar {
+        color: $font-main;
+        border: none;
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+
+
+}
+
+

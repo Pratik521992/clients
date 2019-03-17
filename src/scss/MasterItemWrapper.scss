@@ -1,0 +1,67 @@
+@import './main.scss';
+.ItemAccordianName {
+    background: #0056b3;
+    a{
+        color: antiquewhite;
+    }
+}
+.master-list-group-item {
+    background-color: #07245a;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+   
+    display: grid;
+    grid-template-columns: .5fr .5fr 2fr 2fr;
+    .secondary{
+        color: $secondary;
+        font-size: 16px;
+    }
+    p{
+        margin: 10% auto;
+        
+    }
+    i{
+        margin: 50% 2%;
+        padding: auto;
+    }
+    
+      
+}
+.master-list-item-highlight {
+    border-left: 6px solid #F58220;
+
+}
+.item {
+    background-color: #07245a !important;
+    text-decoration: none;
+    max-height: 50px;
+    a,span{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        margin-left: -30px;
+        &:focus{
+            color: $secondary;
+            text-decoration: none;
+        }
+        &:hover {
+            color: $secondary;
+            text-decoration: none;
+        }
+        &:visited {
+            color: $secondary;
+            text-decoration: none;
+        }
+    }
+    span {
+        
+        font-size: 16px;
+    }
+    
+    
+}
+.flex{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
